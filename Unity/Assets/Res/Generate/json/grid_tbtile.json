@@ -1,0 +1,37 @@
+[
+  {
+    "id": 10001,
+    "passDirection": 0,
+    "behaviour": "Ground"
+  },
+  {
+    "id": 10002,
+    "passDirection": 0,
+    "behaviour": "Empty"
+  },
+  {
+    "id": 10003,
+    "passDirection": 5,
+    "behaviour": "ChannelX"
+  },
+  {
+    "id": 10004,
+    "passDirection": 10,
+    "behaviour": "ChannelY"
+  },
+  {
+    "id": 10005,
+    "passDirection": 0,
+    "behaviour": "Ice"
+  },
+  {
+    "id": 10006,
+    "passDirection": 0,
+    "behaviour": "ConveyorBelt"
+  },
+  {
+    "id": 10007,
+    "passDirection": 0,
+    "behaviour": "Wall"
+  }
+]

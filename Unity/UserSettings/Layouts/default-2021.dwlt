@@ -1,0 +1,1900 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12004, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_PixelRect:
+    serializedVersion: 2
+    x: 0
+    y: 42.7563
+    width: 1548.9075
+    height: 788.168
+  m_ShowMode: 4
+  m_Title: Test Runner
+  m_RootView: {fileID: 2}
+  m_MinSize: {x: 875, y: 300}
+  m_MaxSize: {x: 10000, y: 10000}
+  m_Maximized: 1
+--- !u!114 &2
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12008, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children:
+  - {fileID: 3}
+  - {fileID: 5}
+  - {fileID: 4}
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1548.9075
+    height: 788.168
+  m_MinSize: {x: 875, y: 300}
+  m_MaxSize: {x: 10000, y: 10000}
+  m_UseTopView: 1
+  m_TopViewHeight: 30
+  m_UseBottomView: 1
+  m_BottomViewHeight: 20
+--- !u!114 &3
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12011, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1548.9075
+    height: 30
+  m_MinSize: {x: 0, y: 0}
+  m_MaxSize: {x: 0, y: 0}
+  m_LastLoadedLayoutName: 
+--- !u!114 &4
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12042, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 768.168
+    width: 1548.9075
+    height: 20
+  m_MinSize: {x: 0, y: 0}
+  m_MaxSize: {x: 0, y: 0}
+--- !u!114 &5
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children:
+  - {fileID: 6}
+  - {fileID: 12}
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 30
+    width: 1548.9075
+    height: 738.168
+  m_MinSize: {x: 400, y: 200}
+  m_MaxSize: {x: 32384, y: 16192}
+  vertical: 0
+  controlID: 15
+--- !u!114 &6
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children:
+  - {fileID: 7}
+  - {fileID: 10}
+  - {fileID: 11}
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1069.7142
+    height: 738.168
+  m_MinSize: {x: 300, y: 200}
+  m_MaxSize: {x: 24288, y: 16192}
+  vertical: 0
+  controlID: 16
+--- !u!114 &7
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children:
+  - {fileID: 8}
+  - {fileID: 9}
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 557.4454
+    height: 738.168
+  m_MinSize: {x: 100, y: 200}
+  m_MaxSize: {x: 8096, y: 16192}
+  vertical: 1
+  controlID: 17
+--- !u!114 &8
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: ConsoleWindow
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 557.4454
+    height: 383.19327
+  m_MinSize: {x: 101, y: 121}
+  m_MaxSize: {x: 4001, y: 4021}
+  m_ActualView: {fileID: 15}
+  m_Panes:
+  - {fileID: 14}
+  - {fileID: 15}
+  m_Selected: 1
+  m_LastSelected: 0
+--- !u!114 &9
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: TestRunnerWindow
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 383.19327
+    width: 557.4454
+    height: 354.97476
+  m_MinSize: {x: 101, y: 121}
+  m_MaxSize: {x: 4001, y: 4021}
+  m_ActualView: {fileID: 13}
+  m_Panes:
+  - {fileID: 16}
+  - {fileID: 13}
+  m_Selected: 1
+  m_LastSelected: 0
+--- !u!114 &10
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: SceneHierarchyWindow
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 557.4454
+    y: 0
+    width: 187.96637
+    height: 738.168
+  m_MinSize: {x: 202, y: 221}
+  m_MaxSize: {x: 4002, y: 4021}
+  m_ActualView: {fileID: 17}
+  m_Panes:
+  - {fileID: 17}
+  m_Selected: 0
+  m_LastSelected: 0
+--- !u!114 &11
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: ProjectBrowser
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 745.41174
+    y: 0
+    width: 324.3025
+    height: 738.168
+  m_MinSize: {x: 232, y: 271}
+  m_MaxSize: {x: 10002, y: 10021}
+  m_ActualView: {fileID: 18}
+  m_Panes:
+  - {fileID: 18}
+  m_Selected: 0
+  m_LastSelected: 0
+--- !u!114 &12
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: InspectorWindow
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 1069.7142
+    y: 0
+    width: 479.19324
+    height: 738.168
+  m_MinSize: {x: 276, y: 71}
+  m_MaxSize: {x: 4001, y: 4021}
+  m_ActualView: {fileID: 19}
+  m_Panes:
+  - {fileID: 19}
+  m_Selected: 0
+  m_LastSelected: 0
+--- !u!114 &13
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 13401, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Test Runner
+    m_Image: {fileID: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 0
+    y: 455.79828
+    width: 556.4454
+    height: 333.97476
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+  m_Spl:
+    ID: 159
+    splitterInitialOffset: 0
+    currentActiveSplitter: -1
+    realSizes:
+    - 197.64705
+    - 66.15126
+    relativeSizes:
+    - 0.75
+    - 0.25
+    minSizes:
+    - 32
+    - 32
+    maxSizes:
+    - 0
+    - 0
+    lastTotalSize: 263.7983
+    splitSize: 6
+    xOffset: 0
+    m_Version: 1
+    oldRealSizes: 
+    oldMinSizes: 
+    oldMaxSizes: 
+    oldSplitSize: 0
+  m_TestTypeToolbarIndex: 1
+  m_PlayModeTestListGUI:
+    m_Window: {fileID: 13}
+    m_NewResultList:
+    - id: 1005
+      uniqueId: '[Survive 101][suite]'
+      name: Survive 101
+      fullName: Survive 101
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 
+      parentUniqueId: 
+    m_ResultText: 
+    m_ResultStacktrace: 
+    m_TestListState:
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: 047fa08bffffff7f
+      m_RenameOverlay:
+        m_UserAcceptedRename: 0
+        m_Name: 
+        m_OriginalName: 
+        m_EditFieldRect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        m_UserData: 0
+        m_IsWaitingForDelay: 0
+        m_IsRenaming: 0
+        m_OriginalEventType: 11
+        m_IsRenamingFilename: 0
+        m_ClientGUIView: {fileID: 0}
+      m_SearchString: 
+    m_TestRunnerUIFilter:
+      PassedHidden: 0
+      FailedHidden: 0
+      NotRunHidden: 0
+      m_SearchString: 
+      selectedCategoryMask: 0
+      availableCategories:
+      - Uncategorized
+    m_SelectedOption: 0
+  m_EditModeTestListGUI:
+    m_Window: {fileID: 13}
+    m_NewResultList:
+    - id: 1000
+      uniqueId: '[Survive 101][suite]'
+      name: Survive 101
+      fullName: Survive 101
+      resultStatus: 1
+      duration: 0.1164625
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 
+      parentUniqueId: 
+    - id: 1098
+      uniqueId: '[EditorTests.dll][suite]'
+      name: EditorTests.dll
+      fullName: D:/Unity/Competitions/Survive 100_0.3/Unity/Library/ScriptAssemblies/EditorTests.dll
+      resultStatus: 1
+      duration: 0.0754079
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1070
+      parentUniqueId: '[Survive 101][suite]'
+    - id: 1099
+      uniqueId: EditorTests.dll/[Test][suite]
+      name: Test
+      fullName: Test
+      resultStatus: 1
+      duration: 0.0738672
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1098
+      parentUniqueId: '[EditorTests.dll][suite]'
+    - id: 1100
+      uniqueId: EditorTests.dll/Test/[EditorTests][suite]
+      name: EditorTests
+      fullName: Test.EditorTests
+      resultStatus: 1
+      duration: 0.0733139
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1099
+      parentUniqueId: EditorTests.dll/[Test][suite]
+    - id: 1001
+      uniqueId: EditorTests.dll/Test/EditorTests/[EditorTests][Test.EditorTests.ActorInfoTest][suite]
+      name: ActorInfoTest
+      fullName: Test.EditorTests.ActorInfoTest
+      resultStatus: 1
+      duration: 0.0682113
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1043
+      parentUniqueId: EditorTests.dll/Test/[EditorTests][suite]
+    - id: 1005
+      uniqueId: EditorTests.dll/Test/EditorTests/ActorInfoTest/[EditorTests][Test.EditorTests.ActorInfoTest.OptionalTraitOrderingSortsCorrectly][suite]
+      name: OptionalTraitOrderingSortsCorrectly
+      fullName: Test.EditorTests.ActorInfoTest.OptionalTraitOrderingSortsCorrectly
+      resultStatus: 1
+      duration: 0.0366852
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1001
+      parentUniqueId: EditorTests.dll/Test/EditorTests/[EditorTests][Test.EditorTests.ActorInfoTest][suite]
+    - id: 1004
+      uniqueId: EditorTests.dll/Test/EditorTests/ActorInfoTest/OptionalTraitOrderingSortsCorrectly/[EditorTests][Test.EditorTests.ActorInfoTest.Trait
+        ordering sorts in optional dependency order correctly]
+      name: Trait ordering sorts in optional dependency order correctly
+      fullName: Test.EditorTests.ActorInfoTest.Trait ordering sorts in optional dependency
+        order correctly
+      resultStatus: 1
+      duration: 0.024392
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1005
+      parentUniqueId: EditorTests.dll/Test/EditorTests/ActorInfoTest/[EditorTests][Test.EditorTests.ActorInfoTest.OptionalTraitOrderingSortsCorrectly][suite]
+    - id: 1009
+      uniqueId: EditorTests.dll/Test/EditorTests/ActorInfoTest/[EditorTests][Test.EditorTests.ActorInfoTest.TraitOrderingAllowsMissingOptionalDependencies][suite]
+      name: TraitOrderingAllowsMissingOptionalDependencies
+      fullName: Test.EditorTests.ActorInfoTest.TraitOrderingAllowsMissingOptionalDependencies
+      resultStatus: 1
+      duration: 0.0039526
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1001
+      parentUniqueId: EditorTests.dll/Test/EditorTests/[EditorTests][Test.EditorTests.ActorInfoTest][suite]
+    - id: 1008
+      uniqueId: EditorTests.dll/Test/EditorTests/ActorInfoTest/TraitOrderingAllowsMissingOptionalDependencies/[EditorTests][Test.EditorTests.ActorInfoTest.Trait
+        ordering allows optional dependencies to be missing]
+      name: Trait ordering allows optional dependencies to be missing
+      fullName: Test.EditorTests.ActorInfoTest.Trait ordering allows optional dependencies
+        to be missing
+      resultStatus: 1
+      duration: 0.0004809
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1009
+      parentUniqueId: EditorTests.dll/Test/EditorTests/ActorInfoTest/[EditorTests][Test.EditorTests.ActorInfoTest.TraitOrderingAllowsMissingOptionalDependencies][suite]
+    - id: 1011
+      uniqueId: EditorTests.dll/Test/EditorTests/ActorInfoTest/[EditorTests][Test.EditorTests.ActorInfoTest.TraitOrderingReportsCyclicDependencies][suite]
+      name: TraitOrderingReportsCyclicDependencies
+      fullName: Test.EditorTests.ActorInfoTest.TraitOrderingReportsCyclicDependencies
+      resultStatus: 1
+      duration: 0.0088961
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1001
+      parentUniqueId: EditorTests.dll/Test/EditorTests/[EditorTests][Test.EditorTests.ActorInfoTest][suite]
+    - id: 1010
+      uniqueId: EditorTests.dll/Test/EditorTests/ActorInfoTest/TraitOrderingReportsCyclicDependencies/[EditorTests][Test.EditorTests.ActorInfoTest.Trait
+        ordering exception reports cyclic dependencies]
+      name: Trait ordering exception reports cyclic dependencies
+      fullName: Test.EditorTests.ActorInfoTest.Trait ordering exception reports cyclic
+        dependencies
+      resultStatus: 1
+      duration: 0.0060831
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1011
+      parentUniqueId: EditorTests.dll/Test/EditorTests/ActorInfoTest/[EditorTests][Test.EditorTests.ActorInfoTest.TraitOrderingReportsCyclicDependencies][suite]
+    - id: 1013
+      uniqueId: EditorTests.dll/Test/EditorTests/ActorInfoTest/[EditorTests][Test.EditorTests.ActorInfoTest.TraitOrderingReportsCyclicOptionalDependencies][suite]
+      name: TraitOrderingReportsCyclicOptionalDependencies
+      fullName: Test.EditorTests.ActorInfoTest.TraitOrderingReportsCyclicOptionalDependencies
+      resultStatus: 1
+      duration: 0.0039402
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1001
+      parentUniqueId: EditorTests.dll/Test/EditorTests/[EditorTests][Test.EditorTests.ActorInfoTest][suite]
+    - id: 1012
+      uniqueId: EditorTests.dll/Test/EditorTests/ActorInfoTest/TraitOrderingReportsCyclicOptionalDependencies/[EditorTests][Test.EditorTests.ActorInfoTest.Trait
+        ordering exception reports cyclic optional dependencies]
+      name: Trait ordering exception reports cyclic optional dependencies
+      fullName: Test.EditorTests.ActorInfoTest.Trait ordering exception reports cyclic
+        optional dependencies
+      resultStatus: 1
+      duration: 0.0010662
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1013
+      parentUniqueId: EditorTests.dll/Test/EditorTests/ActorInfoTest/[EditorTests][Test.EditorTests.ActorInfoTest.TraitOrderingReportsCyclicOptionalDependencies][suite]
+    - id: 1007
+      uniqueId: EditorTests.dll/Test/EditorTests/ActorInfoTest/[EditorTests][Test.EditorTests.ActorInfoTest.TraitOrderingReportsMissingDependencies][suite]
+      name: TraitOrderingReportsMissingDependencies
+      fullName: Test.EditorTests.ActorInfoTest.TraitOrderingReportsMissingDependencies
+      resultStatus: 1
+      duration: 0.0045575
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1001
+      parentUniqueId: EditorTests.dll/Test/EditorTests/[EditorTests][Test.EditorTests.ActorInfoTest][suite]
+    - id: 1006
+      uniqueId: EditorTests.dll/Test/EditorTests/ActorInfoTest/TraitOrderingReportsMissingDependencies/[EditorTests][Test.EditorTests.ActorInfoTest.Trait
+        ordering exception reports missing dependencies]
+      name: Trait ordering exception reports missing dependencies
+      fullName: Test.EditorTests.ActorInfoTest.Trait ordering exception reports missing
+        dependencies
+      resultStatus: 1
+      duration: 0.0011205
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1007
+      parentUniqueId: EditorTests.dll/Test/EditorTests/ActorInfoTest/[EditorTests][Test.EditorTests.ActorInfoTest.TraitOrderingReportsMissingDependencies][suite]
+    - id: 1003
+      uniqueId: EditorTests.dll/Test/EditorTests/ActorInfoTest/[EditorTests][Test.EditorTests.ActorInfoTest.TraitOrderingSortsCorrectly][suite]
+      name: TraitOrderingSortsCorrectly
+      fullName: Test.EditorTests.ActorInfoTest.TraitOrderingSortsCorrectly
+      resultStatus: 1
+      duration: 0.0048823
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1001
+      parentUniqueId: EditorTests.dll/Test/EditorTests/[EditorTests][Test.EditorTests.ActorInfoTest][suite]
+    - id: 1002
+      uniqueId: EditorTests.dll/Test/EditorTests/ActorInfoTest/TraitOrderingSortsCorrectly/[EditorTests][Test.EditorTests.ActorInfoTest.Trait
+        ordering sorts in dependency order correctly]
+      name: Trait ordering sorts in dependency order correctly
+      fullName: Test.EditorTests.ActorInfoTest.Trait ordering sorts in dependency
+        order correctly
+      resultStatus: 1
+      duration: 0.0019407
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1003
+      parentUniqueId: EditorTests.dll/Test/EditorTests/ActorInfoTest/[EditorTests][Test.EditorTests.ActorInfoTest.TraitOrderingSortsCorrectly][suite]
+    - id: 1071
+      uniqueId: EditorTests.dll/Test/EditorTests/[EditorTests][Test.EditorTests.AssemblyTest][suite]
+      name: AssemblyTest
+      fullName: Test.EditorTests.AssemblyTest
+      resultStatus: 1
+      duration: 0.0377697
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1100
+      parentUniqueId: EditorTests.dll/Test/[EditorTests][suite]
+    - id: 1072
+      uniqueId: EditorTests.dll/Test/EditorTests/AssemblyTest/[EditorTests][Test.EditorTests.AssemblyTest.EditorAssemblyNameLog]
+      name: EditorAssemblyNameLog
+      fullName: Test.EditorTests.AssemblyTest.EditorAssemblyNameLog
+      resultStatus: 1
+      duration: 0.0165529
+      messages: 
+      output: 'EditorAssemblyNameLog
+
+        Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+
+'
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1071
+      parentUniqueId: EditorTests.dll/Test/EditorTests/[EditorTests][Test.EditorTests.AssemblyTest][suite]
+    - id: 1073
+      uniqueId: EditorTests.dll/Test/EditorTests/[EditorTests][Test.EditorTests.MiniYamlTest][suite]
+      name: MiniYamlTest
+      fullName: Test.EditorTests.MiniYamlTest
+      resultStatus: 1
+      duration: 0.0591232
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1100
+      parentUniqueId: EditorTests.dll/Test/[EditorTests][suite]
+    - id: 1083
+      uniqueId: EditorTests.dll/Test/EditorTests/MiniYamlTest/[EditorTests][Test.EditorTests.MiniYamlTest.ChildCanBeOverriddenThenRemoved][suite]
+      name: ChildCanBeOverriddenThenRemoved
+      fullName: Test.EditorTests.MiniYamlTest.ChildCanBeOverriddenThenRemoved
+      resultStatus: 1
+      duration: 0.004587
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1073
+      parentUniqueId: EditorTests.dll/Test/EditorTests/[EditorTests][Test.EditorTests.MiniYamlTest][suite]
+    - id: 1082
+      uniqueId: EditorTests.dll/Test/EditorTests/MiniYamlTest/ChildCanBeOverriddenThenRemoved/[EditorTests][Test.EditorTests.MiniYamlTest.Child
+        can be removed from intermediate parent]
+      name: Child can be removed from intermediate parent
+      fullName: Test.EditorTests.MiniYamlTest.Child can be removed from intermediate
+        parent
+      resultStatus: 1
+      duration: 0.0003498
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1083
+      parentUniqueId: EditorTests.dll/Test/EditorTests/MiniYamlTest/[EditorTests][Test.EditorTests.MiniYamlTest.ChildCanBeOverriddenThenRemoved][suite]
+    - id: 1079
+      uniqueId: EditorTests.dll/Test/EditorTests/MiniYamlTest/[EditorTests][Test.EditorTests.MiniYamlTest.ChildCanBeRemovedAfterMultipleInheritance][suite]
+      name: ChildCanBeRemovedAfterMultipleInheritance
+      fullName: Test.EditorTests.MiniYamlTest.ChildCanBeRemovedAfterMultipleInheritance
+      resultStatus: 1
+      duration: 0.0045742
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1073
+      parentUniqueId: EditorTests.dll/Test/EditorTests/[EditorTests][Test.EditorTests.MiniYamlTest][suite]
+    - id: 1078
+      uniqueId: EditorTests.dll/Test/EditorTests/MiniYamlTest/ChildCanBeRemovedAfterMultipleInheritance/[EditorTests][Test.EditorTests.MiniYamlTest.Child
+        can be removed after multiple inheritance]
+      name: Child can be removed after multiple inheritance
+      fullName: Test.EditorTests.MiniYamlTest.Child can be removed after multiple
+        inheritance
+      resultStatus: 1
+      duration: 0.0003425
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1079
+      parentUniqueId: EditorTests.dll/Test/EditorTests/MiniYamlTest/[EditorTests][Test.EditorTests.MiniYamlTest.ChildCanBeRemovedAfterMultipleInheritance][suite]
+    - id: 1081
+      uniqueId: EditorTests.dll/Test/EditorTests/MiniYamlTest/[EditorTests][Test.EditorTests.MiniYamlTest.ChildCanBeRemovedAndLaterOverridden][suite]
+      name: ChildCanBeRemovedAndLaterOverridden
+      fullName: Test.EditorTests.MiniYamlTest.ChildCanBeRemovedAndLaterOverridden
+      resultStatus: 1
+      duration: 0.0045329
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1073
+      parentUniqueId: EditorTests.dll/Test/EditorTests/[EditorTests][Test.EditorTests.MiniYamlTest][suite]
+    - id: 1080
+      uniqueId: EditorTests.dll/Test/EditorTests/MiniYamlTest/ChildCanBeRemovedAndLaterOverridden/[EditorTests][Test.EditorTests.MiniYamlTest.Child
+        can be removed and later overridden]
+      name: Child can be removed and later overridden
+      fullName: Test.EditorTests.MiniYamlTest.Child can be removed and later overridden
+      resultStatus: 1
+      duration: 0.0004146
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1081
+      parentUniqueId: EditorTests.dll/Test/EditorTests/MiniYamlTest/[EditorTests][Test.EditorTests.MiniYamlTest.ChildCanBeRemovedAndLaterOverridden][suite]
+    - id: 1093
+      uniqueId: EditorTests.dll/Test/EditorTests/MiniYamlTest/[EditorTests][Test.EditorTests.MiniYamlTest.CommentsShouldCountTowardLineNumbers][suite]
+      name: CommentsShouldCountTowardLineNumbers
+      fullName: Test.EditorTests.MiniYamlTest.CommentsShouldCountTowardLineNumbers
+      resultStatus: 1
+      duration: 0.0043849
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1073
+      parentUniqueId: EditorTests.dll/Test/EditorTests/[EditorTests][Test.EditorTests.MiniYamlTest][suite]
+    - id: 1092
+      uniqueId: EditorTests.dll/Test/EditorTests/MiniYamlTest/CommentsShouldCountTowardLineNumbers/[EditorTests][Test.EditorTests.MiniYamlTest.Comments
+        should count toward line numbers]
+      name: Comments should count toward line numbers
+      fullName: Test.EditorTests.MiniYamlTest.Comments should count toward line numbers
+      resultStatus: 1
+      duration: 0.0002758
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1093
+      parentUniqueId: EditorTests.dll/Test/EditorTests/MiniYamlTest/[EditorTests][Test.EditorTests.MiniYamlTest.CommentsShouldCountTowardLineNumbers][suite]
+    - id: 1097
+      uniqueId: EditorTests.dll/Test/EditorTests/MiniYamlTest/[EditorTests][Test.EditorTests.MiniYamlTest.CommentsShouldntSurviveRoundTrip][suite]
+      name: CommentsShouldntSurviveRoundTrip
+      fullName: Test.EditorTests.MiniYamlTest.CommentsShouldntSurviveRoundTrip
+      resultStatus: 1
+      duration: 0.0044961
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1073
+      parentUniqueId: EditorTests.dll/Test/EditorTests/[EditorTests][Test.EditorTests.MiniYamlTest][suite]
+    - id: 1096
+      uniqueId: EditorTests.dll/Test/EditorTests/MiniYamlTest/CommentsShouldntSurviveRoundTrip/[EditorTests][Test.EditorTests.MiniYamlTest.Comments
+        should be removed when discardCommentsAndWhitespace is false]
+      name: Comments should be removed when discardCommentsAndWhitespace is false
+      fullName: Test.EditorTests.MiniYamlTest.Comments should be removed when discardCommentsAndWhitespace
+        is false
+      resultStatus: 1
+      duration: 0.0002798
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1097
+      parentUniqueId: EditorTests.dll/Test/EditorTests/MiniYamlTest/[EditorTests][Test.EditorTests.MiniYamlTest.CommentsShouldntSurviveRoundTrip][suite]
+    - id: 1095
+      uniqueId: EditorTests.dll/Test/EditorTests/MiniYamlTest/[EditorTests][Test.EditorTests.MiniYamlTest.CommentsSurviveRoundTrip][suite]
+      name: CommentsSurviveRoundTrip
+      fullName: Test.EditorTests.MiniYamlTest.CommentsSurviveRoundTrip
+      resultStatus: 1
+      duration: 0.0042496
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1073
+      parentUniqueId: EditorTests.dll/Test/EditorTests/[EditorTests][Test.EditorTests.MiniYamlTest][suite]
+    - id: 1094
+      uniqueId: EditorTests.dll/Test/EditorTests/MiniYamlTest/CommentsSurviveRoundTrip/[EditorTests][Test.EditorTests.MiniYamlTest.Comments
+        should survive a round trip intact]
+      name: Comments should survive a round trip intact
+      fullName: Test.EditorTests.MiniYamlTest.Comments should survive a round trip
+        intact
+      resultStatus: 1
+      duration: 0.0004246
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1095
+      parentUniqueId: EditorTests.dll/Test/EditorTests/MiniYamlTest/[EditorTests][Test.EditorTests.MiniYamlTest.CommentsSurviveRoundTrip][suite]
+    - id: 1085
+      uniqueId: EditorTests.dll/Test/EditorTests/MiniYamlTest/[EditorTests][Test.EditorTests.MiniYamlTest.EmptyLinesShouldCountTowardLineNumbers][suite]
+      name: EmptyLinesShouldCountTowardLineNumbers
+      fullName: Test.EditorTests.MiniYamlTest.EmptyLinesShouldCountTowardLineNumbers
+      resultStatus: 1
+      duration: 0.0047694
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1073
+      parentUniqueId: EditorTests.dll/Test/EditorTests/[EditorTests][Test.EditorTests.MiniYamlTest][suite]
+    - id: 1084
+      uniqueId: EditorTests.dll/Test/EditorTests/MiniYamlTest/EmptyLinesShouldCountTowardLineNumbers/[EditorTests][Test.EditorTests.MiniYamlTest.Empty
+        lines should count toward line numbers]
+      name: Empty lines should count toward line numbers
+      fullName: Test.EditorTests.MiniYamlTest.Empty lines should count toward line
+        numbers
+      resultStatus: 1
+      duration: 0.0002349
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1085
+      parentUniqueId: EditorTests.dll/Test/EditorTests/MiniYamlTest/[EditorTests][Test.EditorTests.MiniYamlTest.EmptyLinesShouldCountTowardLineNumbers][suite]
+    - id: 1077
+      uniqueId: EditorTests.dll/Test/EditorTests/MiniYamlTest/[EditorTests][Test.EditorTests.MiniYamlTest.InheritanceAndRemovalCanBeComposed][suite]
+      name: InheritanceAndRemovalCanBeComposed
+      fullName: Test.EditorTests.MiniYamlTest.InheritanceAndRemovalCanBeComposed
+      resultStatus: 1
+      duration: 0.0041423
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1073
+      parentUniqueId: EditorTests.dll/Test/EditorTests/[EditorTests][Test.EditorTests.MiniYamlTest][suite]
+    - id: 1076
+      uniqueId: EditorTests.dll/Test/EditorTests/MiniYamlTest/InheritanceAndRemovalCanBeComposed/[EditorTests][Test.EditorTests.MiniYamlTest.Inheritance
+        and removal can be composed]
+      name: Inheritance and removal can be composed
+      fullName: Test.EditorTests.MiniYamlTest.Inheritance and removal can be composed
+      resultStatus: 1
+      duration: 0.0004048
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1077
+      parentUniqueId: EditorTests.dll/Test/EditorTests/MiniYamlTest/[EditorTests][Test.EditorTests.MiniYamlTest.InheritanceAndRemovalCanBeComposed][suite]
+    - id: 1089
+      uniqueId: EditorTests.dll/Test/EditorTests/MiniYamlTest/[EditorTests][Test.EditorTests.MiniYamlTest.TestEscapedHashInValues][suite]
+      name: TestEscapedHashInValues
+      fullName: Test.EditorTests.MiniYamlTest.TestEscapedHashInValues
+      resultStatus: 1
+      duration: 0.0047927
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1073
+      parentUniqueId: EditorTests.dll/Test/EditorTests/[EditorTests][Test.EditorTests.MiniYamlTest][suite]
+    - id: 1088
+      uniqueId: EditorTests.dll/Test/EditorTests/MiniYamlTest/TestEscapedHashInValues/[EditorTests][Test.EditorTests.MiniYamlTest.Comments
+        are correctly separated from values]
+      name: Comments are correctly separated from values
+      fullName: Test.EditorTests.MiniYamlTest.Comments are correctly separated from
+        values
+      resultStatus: 1
+      duration: 0.0002495
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1089
+      parentUniqueId: EditorTests.dll/Test/EditorTests/MiniYamlTest/[EditorTests][Test.EditorTests.MiniYamlTest.TestEscapedHashInValues][suite]
+    - id: 1091
+      uniqueId: EditorTests.dll/Test/EditorTests/MiniYamlTest/[EditorTests][Test.EditorTests.MiniYamlTest.TestGuardedWhitespace][suite]
+      name: TestGuardedWhitespace
+      fullName: Test.EditorTests.MiniYamlTest.TestGuardedWhitespace
+      resultStatus: 1
+      duration: 0.0049793
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1073
+      parentUniqueId: EditorTests.dll/Test/EditorTests/[EditorTests][Test.EditorTests.MiniYamlTest][suite]
+    - id: 1090
+      uniqueId: EditorTests.dll/Test/EditorTests/MiniYamlTest/TestGuardedWhitespace/[EditorTests][Test.EditorTests.MiniYamlTest.Leading
+        and trailing whitespace can be guarded using a backslash]
+      name: Leading and trailing whitespace can be guarded using a backslash
+      fullName: Test.EditorTests.MiniYamlTest.Leading and trailing whitespace can
+        be guarded using a backslash
+      resultStatus: 1
+      duration: 0.0002117
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1091
+      parentUniqueId: EditorTests.dll/Test/EditorTests/MiniYamlTest/[EditorTests][Test.EditorTests.MiniYamlTest.TestGuardedWhitespace][suite]
+    - id: 1075
+      uniqueId: EditorTests.dll/Test/EditorTests/MiniYamlTest/[EditorTests][Test.EditorTests.MiniYamlTest.TestIndents][suite]
+      name: TestIndents
+      fullName: Test.EditorTests.MiniYamlTest.TestIndents
+      resultStatus: 1
+      duration: 0.0038343
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1073
+      parentUniqueId: EditorTests.dll/Test/EditorTests/[EditorTests][Test.EditorTests.MiniYamlTest][suite]
+    - id: 1074
+      uniqueId: EditorTests.dll/Test/EditorTests/MiniYamlTest/TestIndents/[EditorTests][Test.EditorTests.MiniYamlTest.Mixed
+        tabs & spaces indents]
+      name: Mixed tabs & spaces indents
+      fullName: Test.EditorTests.MiniYamlTest.Mixed tabs & spaces indents
+      resultStatus: 1
+      duration: 0.0005127
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1075
+      parentUniqueId: EditorTests.dll/Test/EditorTests/MiniYamlTest/[EditorTests][Test.EditorTests.MiniYamlTest.TestIndents][suite]
+    - id: 1087
+      uniqueId: EditorTests.dll/Test/EditorTests/MiniYamlTest/[EditorTests][Test.EditorTests.MiniYamlTest.TestSelfMerging][suite]
+      name: TestSelfMerging
+      fullName: Test.EditorTests.MiniYamlTest.TestSelfMerging
+      resultStatus: 1
+      duration: 0.0039677
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1073
+      parentUniqueId: EditorTests.dll/Test/EditorTests/[EditorTests][Test.EditorTests.MiniYamlTest][suite]
+    - id: 1086
+      uniqueId: EditorTests.dll/Test/EditorTests/MiniYamlTest/TestSelfMerging/[EditorTests][Test.EditorTests.MiniYamlTest.Duplicated
+        nodes are correctly merged]
+      name: Duplicated nodes are correctly merged
+      fullName: Test.EditorTests.MiniYamlTest.Duplicated nodes are correctly merged
+      resultStatus: 1
+      duration: 0.0004129
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1087
+      parentUniqueId: EditorTests.dll/Test/EditorTests/MiniYamlTest/[EditorTests][Test.EditorTests.MiniYamlTest.TestSelfMerging][suite]
+    m_ResultText: ActorInfoTest (0.068s)
+    m_ResultStacktrace: 
+    m_TestListState:
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: 56293198
+      m_LastClickedID: -1741608618
+      m_ExpandedIDs: 35c3b1858d684988047fa08b34b4c8962989d39dbe413a1162cbc13cffffff7f
+      m_RenameOverlay:
+        m_UserAcceptedRename: 0
+        m_Name: 
+        m_OriginalName: 
+        m_EditFieldRect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        m_UserData: 0
+        m_IsWaitingForDelay: 0
+        m_IsRenaming: 0
+        m_OriginalEventType: 11
+        m_IsRenamingFilename: 0
+        m_ClientGUIView: {fileID: 0}
+      m_SearchString: 
+    m_TestRunnerUIFilter:
+      PassedHidden: 0
+      FailedHidden: 0
+      NotRunHidden: 0
+      m_SearchString: 
+      selectedCategoryMask: 0
+      availableCategories:
+      - Uncategorized
+--- !u!114 &14
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12013, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Scene
+    m_Image: {fileID: 8634526014445323508, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 0
+    y: 72.60504
+    width: 556.4454
+    height: 362.19327
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData:
+    - dockPosition: 0
+      containerId: overlay-toolbar__top
+      floating: 0
+      collapsed: 0
+      displayed: 1
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Tool Settings
+      index: 0
+      layout: 1
+    - dockPosition: 0
+      containerId: overlay-toolbar__top
+      floating: 0
+      collapsed: 0
+      displayed: 1
+      snapOffset: {x: -141, y: 149}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 1
+      id: unity-grid-and-snap-toolbar
+      index: 1
+      layout: 1
+    - dockPosition: 1
+      containerId: overlay-toolbar__top
+      floating: 0
+      collapsed: 0
+      displayed: 1
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: unity-scene-view-toolbar
+      index: 0
+      layout: 1
+    - dockPosition: 1
+      containerId: overlay-toolbar__top
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 1
+      id: unity-search-toolbar
+      index: 1
+      layout: 1
+    - dockPosition: 0
+      containerId: overlay-container--left
+      floating: 0
+      collapsed: 0
+      displayed: 1
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: unity-transform-toolbar
+      index: 0
+      layout: 2
+    - dockPosition: 0
+      containerId: overlay-container--left
+      floating: 0
+      collapsed: 0
+      displayed: 1
+      snapOffset: {x: 0, y: 197}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: unity-component-tools
+      index: 1
+      layout: 2
+    - dockPosition: 0
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 1
+      snapOffset: {x: 67.5, y: 86}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Orientation
+      index: 0
+      layout: 4
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Light Settings
+      index: 0
+      layout: 4
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Camera
+      index: 1
+      layout: 4
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Cloth Constraints
+      index: 2
+      layout: 4
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Cloth Collisions
+      index: 3
+      layout: 4
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Navmesh Display
+      index: 4
+      layout: 4
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Agent Display
+      index: 5
+      layout: 4
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Obstacle Display
+      index: 6
+      layout: 4
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Occlusion Culling
+      index: 7
+      layout: 4
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Physics Debugger
+      index: 8
+      layout: 4
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Scene Visibility
+      index: 9
+      layout: 4
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Particles
+      index: 10
+      layout: 4
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Tilemap
+      index: 11
+      layout: 4
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Tilemap Palette Helper
+      index: 12
+      layout: 4
+  m_WindowGUID: c3a152c911b5f9d45a13a559c3d132dd
+  m_Gizmos: 1
+  m_OverrideSceneCullingMask: 6917529027641081856
+  m_SceneIsLit: 1
+  m_SceneLighting: 1
+  m_2DMode: 1
+  m_isRotationLocked: 0
+  m_PlayAudio: 0
+  m_AudioPlay: 0
+  m_Position:
+    m_Target: {x: 684.85876, y: 144.57147, z: 29.130295}
+    speed: 2
+    m_Value: {x: 684.85876, y: 144.57147, z: 29.130295}
+  m_RenderMode: 0
+  m_CameraMode:
+    drawMode: 0
+    name: Shaded
+    section: Shading Mode
+  m_ValidateTrueMetals: 0
+  m_DoValidateTrueMetals: 0
+  m_ExposureSliderValue: 0
+  m_SceneViewState:
+    m_AlwaysRefresh: 0
+    showFog: 1
+    showSkybox: 1
+    showFlares: 1
+    showImageEffects: 1
+    showParticleSystems: 1
+    showVisualEffectGraphs: 1
+    m_FxEnabled: 1
+  m_Grid:
+    xGrid:
+      m_Fade:
+        m_Target: 0
+        speed: 2
+        m_Value: 0
+      m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
+      m_Pivot: {x: 0, y: 0, z: 0}
+      m_Size: {x: 1, y: 1}
+    yGrid:
+      m_Fade:
+        m_Target: 0
+        speed: 2
+        m_Value: 0
+      m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
+      m_Pivot: {x: 0, y: 0, z: 0}
+      m_Size: {x: 1, y: 1}
+    zGrid:
+      m_Fade:
+        m_Target: 1
+        speed: 2
+        m_Value: 1
+      m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
+      m_Pivot: {x: 0, y: 0, z: 0}
+      m_Size: {x: 1, y: 1}
+    m_ShowGrid: 1
+    m_GridAxis: 1
+    m_gridOpacity: 0.5
+  m_Rotation:
+    m_Target: {x: 0, y: 0, z: 0, w: 1}
+    speed: 2
+    m_Value: {x: 0, y: 0, z: 0, w: 1}
+  m_Size:
+    m_Target: 3.8679824
+    speed: 2
+    m_Value: 3.8679824
+  m_Ortho:
+    m_Target: 1
+    speed: 2
+    m_Value: 1
+  m_CameraSettings:
+    m_Speed: 1
+    m_SpeedNormalized: 0.5
+    m_SpeedMin: 0.001
+    m_SpeedMax: 2
+    m_EasingEnabled: 1
+    m_EasingDuration: 0.4
+    m_AccelerationEnabled: 1
+    m_FieldOfViewHorizontalOrVertical: 60
+    m_NearClip: 0.03
+    m_FarClip: 10000
+    m_DynamicClip: 1
+    m_OcclusionCulling: 0
+  m_LastSceneViewRotation: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
+  m_LastSceneViewOrtho: 0
+  m_ReplacementShader: {fileID: 0}
+  m_ReplacementString: 
+  m_SceneVisActive: 1
+  m_LastLockedObject: {fileID: 0}
+  m_ViewIsLockedToObject: 0
+--- !u!114 &15
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12003, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Console
+    m_Image: {fileID: -4950941429401207979, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 0
+    y: 72.60504
+    width: 556.4454
+    height: 362.19327
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+--- !u!114 &16
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12015, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Game
+    m_Image: {fileID: 4621777727084837110, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 0
+    y: 455.79828
+    width: 556.4454
+    height: 333.97476
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+  m_SerializedViewNames: []
+  m_SerializedViewValues: []
+  m_PlayModeViewName: GameView
+  m_ShowGizmos: 0
+  m_TargetDisplay: 0
+  m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
+  m_TargetSize: {x: 1920, y: 1080}
+  m_TextureFilterMode: 0
+  m_TextureHideFlags: 61
+  m_RenderIMGUI: 1
+  m_EnterPlayModeBehavior: 0
+  m_UseMipMap: 0
+  m_VSyncEnabled: 1
+  m_Gizmos: 0
+  m_Stats: 0
+  m_SelectedSizes: 03000000000000000000000000000000000000000000000000000000000000000000000000000000
+  m_ZoomArea:
+    m_HRangeLocked: 0
+    m_VRangeLocked: 0
+    hZoomLockedByDefault: 0
+    vZoomLockedByDefault: 0
+    m_HBaseRangeMin: -774.45374
+    m_HBaseRangeMax: 774.45374
+    m_VBaseRangeMin: -435.63022
+    m_VBaseRangeMax: 435.63022
+    m_HAllowExceedBaseRangeMin: 1
+    m_HAllowExceedBaseRangeMax: 1
+    m_VAllowExceedBaseRangeMin: 1
+    m_VAllowExceedBaseRangeMax: 1
+    m_ScaleWithWindow: 0
+    m_HSlider: 0
+    m_VSlider: 0
+    m_IgnoreScrollWheelUntilClicked: 0
+    m_EnableMouseInput: 1
+    m_EnableSliderZoomHorizontal: 0
+    m_EnableSliderZoomVertical: 0
+    m_UniformScale: 1
+    m_UpDirection: 1
+    m_DrawArea:
+      serializedVersion: 2
+      x: 0
+      y: 21
+      width: 556.4454
+      height: 312.97476
+    m_Scale: {x: 0.35922068, y: 0.35922068}
+    m_Translation: {x: 278.2227, y: 156.48738}
+    m_MarginLeft: 0
+    m_MarginRight: 0
+    m_MarginTop: 0
+    m_MarginBottom: 0
+    m_LastShownAreaInsideMargins:
+      serializedVersion: 2
+      x: -774.51746
+      y: -435.63022
+      width: 1549.0349
+      height: 871.26044
+    m_MinimalGUI: 1
+  m_defaultScale: 0.35922068
+  m_LastWindowPixelSize: {x: 689.76044, y: 413.98956}
+  m_ClearInEditMode: 1
+  m_NoCameraWarning: 1
+  m_LowResolutionForAspectRatios: 01000000000000000000
+  m_XRRenderMode: 0
+  m_RenderTexture: {fileID: 0}
+--- !u!114 &17
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12061, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Hierarchy
+    m_Image: {fileID: -3734745235275155857, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 557.4454
+    y: 72.60504
+    width: 185.96637
+    height: 717.168
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+  m_SceneHierarchy:
+    m_TreeViewState:
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: 30640000
+      m_LastClickedID: 25648
+      m_ExpandedIDs: 12f3ffff74f8ffffbaf8ffffacf9ffff96faffff18640000
+      m_RenameOverlay:
+        m_UserAcceptedRename: 0
+        m_Name: 
+        m_OriginalName: 
+        m_EditFieldRect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        m_UserData: 0
+        m_IsWaitingForDelay: 0
+        m_IsRenaming: 0
+        m_OriginalEventType: 11
+        m_IsRenamingFilename: 0
+        m_ClientGUIView: {fileID: 10}
+      m_SearchString: 
+    m_ExpandedScenes: []
+    m_CurrenRootInstanceID: 0
+    m_LockTracker:
+      m_IsLocked: 0
+    m_CurrentSortingName: TransformSorting
+  m_WindowGUID: 2428038d58fdf0d4bb8e49f2e8955860
+--- !u!114 &18
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12014, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 230, y: 250}
+  m_MaxSize: {x: 10000, y: 10000}
+  m_TitleContent:
+    m_Text: Project
+    m_Image: {fileID: -5179483145760003458, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 745.41174
+    y: 72.60504
+    width: 322.3025
+    height: 717.168
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+  m_SearchFilter:
+    m_NameFilter: 
+    m_ClassNames: []
+    m_AssetLabels: []
+    m_AssetBundleNames: []
+    m_VersionControlStates: []
+    m_SoftLockControlStates: []
+    m_ReferencingInstanceIDs: 
+    m_SceneHandles: 
+    m_ShowAllHits: 0
+    m_SkipHidden: 0
+    m_SearchArea: 1
+    m_Folders:
+    - Assets/Scripts/Game
+    m_Globs: []
+    m_OriginalText: 
+  m_ViewMode: 1
+  m_StartGridSize: 16
+  m_LastFolders:
+  - Assets/Scripts/Game
+  m_LastFoldersGridSize: 16
+  m_LastProjectPath: D:\Unity\Competitions\Survive 100_0.3\Unity
+  m_LockTracker:
+    m_IsLocked: 0
+  m_FolderTreeState:
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 70630000
+    m_LastClickedID: 25456
+    m_ExpandedIDs: 00000000426300004463000046630000486300004a6300004c6300004e63000050630000526300005463000056630000586300005a6300005c6300005e63000060630000626300006463000066630000686300006a6300006c6300006e63000070630000a8630000
+    m_RenameOverlay:
+      m_UserAcceptedRename: 0
+      m_Name: 
+      m_OriginalName: 
+      m_EditFieldRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      m_UserData: 0
+      m_IsWaitingForDelay: 0
+      m_IsRenaming: 0
+      m_OriginalEventType: 11
+      m_IsRenamingFilename: 1
+      m_ClientGUIView: {fileID: 11}
+    m_SearchString: 
+    m_CreateAssetUtility:
+      m_EndAction: {fileID: 0}
+      m_InstanceID: 0
+      m_Path: 
+      m_Icon: {fileID: 0}
+      m_ResourceFile: 
+  m_AssetTreeState:
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: e6410000
+    m_LastClickedID: 16870
+    m_ExpandedIDs: 00000000426300004463000046630000486300004a6300004c6300004e63000050630000526300005463000056630000586300005a6300005c6300005e63000060630000626300006463000066630000686300006a6300006c6300006e63000070630000
+    m_RenameOverlay:
+      m_UserAcceptedRename: 0
+      m_Name: 
+      m_OriginalName: 
+      m_EditFieldRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      m_UserData: 0
+      m_IsWaitingForDelay: 0
+      m_IsRenaming: 0
+      m_OriginalEventType: 11
+      m_IsRenamingFilename: 1
+      m_ClientGUIView: {fileID: 0}
+    m_SearchString: 
+    m_CreateAssetUtility:
+      m_EndAction: {fileID: 0}
+      m_InstanceID: 0
+      m_Path: 
+      m_Icon: {fileID: 0}
+      m_ResourceFile: 
+  m_ListAreaState:
+    m_SelectedInstanceIDs: 
+    m_LastClickedInstanceID: 0
+    m_HadKeyboardFocusLastEvent: 1
+    m_ExpandedInstanceIDs: c62300009c520000285000004cae010000000000dc470000a0560000
+    m_RenameOverlay:
+      m_UserAcceptedRename: 0
+      m_Name: 
+      m_OriginalName: 
+      m_EditFieldRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      m_UserData: 0
+      m_IsWaitingForDelay: 0
+      m_IsRenaming: 0
+      m_OriginalEventType: 11
+      m_IsRenamingFilename: 1
+      m_ClientGUIView: {fileID: 11}
+    m_CreateAssetUtility:
+      m_EndAction: {fileID: 0}
+      m_InstanceID: 0
+      m_Path: 
+      m_Icon: {fileID: 0}
+      m_ResourceFile: 
+    m_NewAssetIndexInList: -1
+    m_ScrollPosition: {x: 0, y: 0}
+    m_GridSize: 16
+  m_SkipHiddenPackages: 0
+  m_DirectoriesAreaWidth: 170.91595
+--- !u!114 &19
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12019, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Inspector
+    m_Image: {fileID: -440750813802333266, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 1069.7142
+    y: 72.60504
+    width: 478.19324
+    height: 717.168
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+  m_ObjectsLockedBeforeSerialization: []
+  m_InstanceIDsLockedBeforeSerialization: 
+  m_PreviewResizer:
+    m_CachedPref: -160
+    m_ControlHash: -371814159
+    m_PrefName: Preview_InspectorPreview
+  m_LastInspectedObjectInstanceID: -1
+  m_LastVerticalScrollValue: 0
+  m_GlobalObjectId: 
+  m_InspectorMode: 0
+  m_LockTracker:
+    m_IsLocked: 0
+  m_PreviewWindow: {fileID: 0}

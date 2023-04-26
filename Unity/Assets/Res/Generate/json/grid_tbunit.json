@@ -1,0 +1,67 @@
+[
+  {
+    "id": 20001,
+    "is_collider": false,
+    "behaviour": "Start"
+  },
+  {
+    "id": 20002,
+    "is_collider": false,
+    "behaviour": "End"
+  },
+  {
+    "id": 20003,
+    "is_collider": true,
+    "behaviour": "Bushes"
+  },
+  {
+    "id": 20004,
+    "is_collider": true,
+    "behaviour": "Stone"
+  },
+  {
+    "id": 20005,
+    "is_collider": true,
+    "behaviour": "Tree"
+  },
+  {
+    "id": 20006,
+    "is_collider": true,
+    "behaviour": "BigTree"
+  },
+  {
+    "id": 20007,
+    "is_collider": true,
+    "behaviour": "TreeStump"
+  },
+  {
+    "id": 20008,
+    "is_collider": true,
+    "behaviour": "Rock"
+  },
+  {
+    "id": 20009,
+    "is_collider": true,
+    "behaviour": "MossyRock"
+  },
+  {
+    "id": 20010,
+    "is_collider": true,
+    "behaviour": "Ore"
+  },
+  {
+    "id": 20011,
+    "is_collider": true,
+    "behaviour": "BigOre"
+  },
+  {
+    "id": 20012,
+    "is_collider": true,
+    "behaviour": "Crystal"
+  },
+  {
+    "id": 20013,
+    "is_collider": true,
+    "behaviour": "Treasure"
+  }
+]
