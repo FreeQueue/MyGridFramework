@@ -1,0 +1,24 @@
+﻿<root>
+    <topmodule name="cfg"/>
+
+    <group name="c" default="1"/>
+
+    <import name="."/>
+
+    <importexcel name="__tables__.xlsx" type="table"/>
+    <importexcel name="__enums__.xlsx" type="enum"/>
+    <importexcel name="__beans__.xlsx" type="bean"/>
+
+    <importexcel name="_enums@item.xlsx" type="enum"/>
+    <importexcel name="_beans@item.xlsx" type="bean"/>
+    <importexcel name="ItemId@item.xlsx" type="enum"/>
+    <importexcel name="FoodEvent@item.xlsx" type="enum"/>
+    <importexcel name="RecipeEvent@item.xlsx" type="enum"/>
+
+    <importexcel name="_beans@grid.xlsx" type="bean"/>
+    <importexcel name="TileId@grid.xlsx" type="enum"/>
+    <importexcel name="UnitId@grid.xlsx" type="enum"/>
+
+    <service name="client" manager="Tables" group="c"/>
+    <service name="all" manager="Tables" group="c"/>
+</root>

@@ -1,0 +1,161 @@
+﻿[
+    {
+        "id": "WoodBar",
+        "img_asset_name": "WoodBar",
+        "properties": [
+            {
+                "$type": "ToolProperty",
+                "tool_type": "Sword",
+                "damage": 1,
+                "max_durability": 3
+            }
+        ]
+    },
+    {
+        "id": "StoneAxe",
+        "img_asset_name": "StoneAxe",
+        "properties": [
+            {
+                "$type": "ToolProperty",
+                "tool_type": "Axe",
+                "damage": 1,
+                "max_durability": 3
+            }
+        ]
+    },
+    {
+        "id": "StonePickaxe",
+        "img_asset_name": "StonePickaxe",
+        "properties": [
+            {
+                "$type": "ToolProperty",
+                "tool_type": "Pickaxe",
+                "damage": 1,
+                "max_durability": 3
+            }
+        ]
+    },
+    {
+        "id": "IronSword",
+        "img_asset_name": "IronSword",
+        "properties": [
+            {
+                "$type": "ToolProperty",
+                "tool_type": "Sword",
+                "damage": 2,
+                "max_durability": 3
+            }
+        ]
+    },
+    {
+        "id": "IronAxe",
+        "img_asset_name": "IronAxe",
+        "properties": [
+            {
+                "$type": "ToolProperty",
+                "tool_type": "Axe",
+                "damage": 2,
+                "max_durability": 3
+            }
+        ]
+    },
+    {
+        "id": "IronPickaxe",
+        "img_asset_name": "IronPickaxe",
+        "properties": [
+            {
+                "$type": "ToolProperty",
+                "tool_type": "Pickaxe",
+                "damage": 2,
+                "max_durability": 3
+            }
+        ]
+    },
+    {
+        "id": "CrystalSword",
+        "img_asset_name": "CrystalSword",
+        "properties": [
+            {
+                "$type": "ToolProperty",
+                "tool_type": "Sword",
+                "damage": 3,
+                "max_durability": 3
+            }
+        ]
+    },
+    {
+        "id": "CrystalAxe",
+        "img_asset_name": "CrystalAxe",
+        "properties": [
+            {
+                "$type": "ToolProperty",
+                "tool_type": "Axe",
+                "damage": 3,
+                "max_durability": 3
+            }
+        ]
+    },
+    {
+        "id": "CrystalPickaxe",
+        "img_asset_name": "CrystalPickaxe",
+        "properties": [
+            {
+                "$type": "ToolProperty",
+                "tool_type": "Pickaxe",
+                "damage": 3,
+                "max_durability": 3
+            }
+        ]
+    },
+    {
+        "id": "Apple",
+        "img_asset_name": "Apple",
+        "properties": [
+            {
+                "$type": "FoodProperty",
+                "food": 1,
+                "water": 1,
+                "effect": null,
+                "rot_turn": null
+            }
+        ]
+    },
+    {
+        "id": "Water",
+        "img_asset_name": "Water",
+        "properties": [
+            {
+                "$type": "FoodProperty",
+                "food": 0,
+                "water": 3,
+                "effect": null,
+                "rot_turn": null
+            }
+        ]
+    },
+    {
+        "id": "Branch",
+        "img_asset_name": "Branch",
+        "properties": []
+    },
+    {
+        "id": "Stone",
+        "img_asset_name": "Stone",
+        "properties": []
+    },
+    {
+        "id": "Log",
+        "img_asset_name": "Log",
+        "properties": []
+    },
+    {
+        "id": "Iron",
+        "img_asset_name": "Iron",
+        "properties": []
+    },
+    {
+        "id": "Crystal",
+        "img_asset_name": "Crystal",
+        "properties": []
+    }
+]

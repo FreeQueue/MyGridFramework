@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Map",
+    "entity_group_id": 0,
+    "asset_name": "Map"
+  },
+  {
+    "id": 10001,
+    "name": "Ground",
+    "entity_group_id": 1,
+    "asset_name": "Ground"
+  },
+  {
+    "id": 10002,
+    "name": "Empty",
+    "entity_group_id": 1,
+    "asset_name": "Empty"
+  },
+  {
+    "id": 10003,
+    "name": "Channel",
+    "entity_group_id": 1,
+    "asset_name": "Channel"
+  },
+  {
+    "id": 10004,
+    "name": "Ice",
+    "entity_group_id": 1,
+    "asset_name": "Ice"
+  },
+  {
+    "id": 10005,
+    "name": "ConveyorBelt",
+    "entity_group_id": 1,
+    "asset_name": "ConveyorBelt"
+  },
+  {
+    "id": 10006,
+    "name": "Wall",
+    "entity_group_id": 1,
+    "asset_name": "Wall"
+  },
+  {
+    "id": 20001,
+    "name": "Start",
+    "entity_group_id": 2,
+    "asset_name": "Start"
+  },
+  {
+    "id": 20002,
+    "name": "End",
+    "entity_group_id": 2,
+    "asset_name": "End"
+  },
+  {
+    "id": 20003,
+    "name": "Bushes",
+    "entity_group_id": 2,
+    "asset_name": "Bushes"
+  },
+  {
+    "id": 20004,
+    "name": "Stone",
+    "entity_group_id": 2,
+    "asset_name": "Stone"
+  },
+  {
+    "id": 20005,
+    "name": "Tree",
+    "entity_group_id": 2,
+    "asset_name": "Tree"
+  },
+  {
+    "id": 20006,
+    "name": "BigTree",
+    "entity_group_id": 2,
+    "asset_name": "BigTree"
+  },
+  {
+    "id": 20007,
+    "name": "TreeStump",
+    "entity_group_id": 2,
+    "asset_name": "TreeStump"
+  },
+  {
+    "id": 20008,
+    "name": "Rock",
+    "entity_group_id": 2,
+    "asset_name": "Rock"
+  },
+  {
+    "id": 20009,
+    "name": "MossyRock",
+    "entity_group_id": 2,
+    "asset_name": "MossyRock"
+  },
+  {
+    "id": 20010,
+    "name": "Ore",
+    "entity_group_id": 2,
+    "asset_name": "Ore"
+  },
+  {
+    "id": 20011,
+    "name": "BigOre",
+    "entity_group_id": 2,
+    "asset_name": "BigOre"
+  },
+  {
+    "id": 20012,
+    "name": "Crystal",
+    "entity_group_id": 2,
+    "asset_name": "Crystal"
+  },
+  {
+    "id": 20013,
+    "name": "Treasure",
+    "entity_group_id": 2,
+    "asset_name": "Treasure"
+  }
+]

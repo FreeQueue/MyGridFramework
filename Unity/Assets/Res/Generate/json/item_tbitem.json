@@ -1,0 +1,157 @@
+[
+  {
+    "id": 6,
+    "img_asset_name": "WoodBar",
+    "properties": [
+      {
+        "$type": "ToolProperty",
+        "tool_type": 3,
+        "damage": 1,
+        "max_durability": 3
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "img_asset_name": "StoneAxe",
+    "properties": [
+      {
+        "$type": "ToolProperty",
+        "tool_type": 1,
+        "damage": 1,
+        "max_durability": 3
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "img_asset_name": "StonePickaxe",
+    "properties": [
+      {
+        "$type": "ToolProperty",
+        "tool_type": 2,
+        "damage": 1,
+        "max_durability": 3
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "img_asset_name": "IronSword",
+    "properties": [
+      {
+        "$type": "ToolProperty",
+        "tool_type": 3,
+        "damage": 2,
+        "max_durability": 3
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "img_asset_name": "IronAxe",
+    "properties": [
+      {
+        "$type": "ToolProperty",
+        "tool_type": 1,
+        "damage": 2,
+        "max_durability": 3
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "img_asset_name": "IronPickaxe",
+    "properties": [
+      {
+        "$type": "ToolProperty",
+        "tool_type": 2,
+        "damage": 2,
+        "max_durability": 3
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "img_asset_name": "CrystalSword",
+    "properties": [
+      {
+        "$type": "ToolProperty",
+        "tool_type": 3,
+        "damage": 3,
+        "max_durability": 3
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "img_asset_name": "CrystalAxe",
+    "properties": [
+      {
+        "$type": "ToolProperty",
+        "tool_type": 1,
+        "damage": 3,
+        "max_durability": 3
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "img_asset_name": "CrystalPickaxe",
+    "properties": [
+      {
+        "$type": "ToolProperty",
+        "tool_type": 2,
+        "damage": 3,
+        "max_durability": 3
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "img_asset_name": "Apple",
+    "properties": [
+      {
+        "$type": "FoodProperty",
+        "food": 1,
+        "water": 1
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "img_asset_name": "Water",
+    "properties": [
+      {
+        "$type": "FoodProperty",
+        "food": 0,
+        "water": 3
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "img_asset_name": "Branch",
+    "properties": []
+  },
+  {
+    "id": 2,
+    "img_asset_name": "Stone",
+    "properties": []
+  },
+  {
+    "id": 3,
+    "img_asset_name": "Log",
+    "properties": []
+  },
+  {
+    "id": 4,
+    "img_asset_name": "Iron",
+    "properties": []
+  },
+  {
+    "id": 5,
+    "img_asset_name": "Crystal",
+    "properties": []
+  }
+]

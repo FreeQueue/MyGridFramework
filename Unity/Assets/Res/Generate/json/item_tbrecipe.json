@@ -1,0 +1,42 @@
+[
+  {
+    "material1": 1,
+    "material2": 2,
+    "product": 9
+  },
+  {
+    "material1": 1,
+    "material2": 1,
+    "product": 6
+  },
+  {
+    "material1": 6,
+    "material2": 2,
+    "product": 10
+  },
+  {
+    "material1": 9,
+    "material2": 4,
+    "product": 11
+  },
+  {
+    "material1": 10,
+    "material2": 4,
+    "product": 12
+  },
+  {
+    "material1": 11,
+    "material2": 5,
+    "product": 13
+  },
+  {
+    "material1": 12,
+    "material2": 5,
+    "product": 14
+  },
+  {
+    "material1": 4,
+    "material2": 4,
+    "product": 15
+  }
+]
