@@ -1,6 +1,3 @@
-using Framework.Kits.MiniYamlKits;
-using Framework.Kits.YamlSerializeKits;
-
 namespace S100
 {
 	/*
@@ -16,12 +13,11 @@ namespace S100
 	*/
 	public abstract class ActorInit
 	{
-		[FieldLoader.Ignore] public readonly string InstanceName;
+		public readonly string InstanceName;
 		protected ActorInit(string instanceName) {
 			InstanceName = instanceName;
 		}
 		protected ActorInit() {
 		}
-		public abstract MiniYaml Save();
 	}
 }

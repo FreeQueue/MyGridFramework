@@ -9,12 +9,12 @@ namespace Framework.Kits.ConfigKits
 			config.Init();
 			_configs.Register(config,name);
 		}
-		public bool Contains<TConfig>() where TConfig : IConfig {
-			return _configs.Contains<TConfig>();
+		public bool Contains<TConfig>(string name=null) where TConfig : IConfig {
+			return _configs.Contains<TConfig>(name);
 		}
-		
-		public TConfig Get<TConfig>() where TConfig : IConfig {
-			return _configs.Get<TConfig>();
+
+		public TConfig Get<TConfig>(string name=null) where TConfig : IConfig {
+			return _configs.Get<TConfig>(name);
 		}
 	}
 }

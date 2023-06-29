@@ -22,48 +22,34 @@ namespace Framework.Kits.CollectionsUnmanaged
 		private static readonly Func<Type, List<object>> CreateList = _ => new List<object>();
 		private readonly Dictionary<Type, List<object>> _data = new Dictionary<Type, List<object>>();
 
-		public void Add(object val)
-		{
-			Type t = val.GetType();
+		public IEnumerator GetEnumerator() => WithInterface<object>().GetEnumerator();
 
-			foreach (Type i in t.GetInterfaces())
-				InnerAdd(i, val);
-			foreach (Type tt in t.BaseTypes())
-				InnerAdd(tt, val);
+		public void Add(object val) {
+			Type type = val.GetType();
+
+			foreach (Type @interface in type.GetInterfaces()) {
+				InnerAdd(@interface, val);
+			}
+			foreach (Type baseType in type.BaseTypes()) {
+				InnerAdd(baseType, val);
+			}
 		}
 
-		private void InnerAdd(Type t, object val)
-		{
+		private void InnerAdd(Type t, object val) {
 			_data.GetOrAdd(t, CreateList).Add(val);
 		}
+		public bool Contains<T>() => _data.ContainsKey(typeof(T));
+		public bool Contains(Type t) => _data.ContainsKey(t);
+		public T Get<T>() => (T)Get(typeof(T), true);
 
-		public bool Contains<T>()
-		{
-			return _data.ContainsKey(typeof(T));
-		}
-
-		public bool Contains(Type t)
-		{
-			return _data.ContainsKey(t);
-		}
-
-		public T Get<T>()
-		{
-			return (T)Get(typeof(T), true);
-		}
-
-		public T GetOrDefault<T>()
-		{
-			var result = Get(typeof(T), false);
-			if (result == null)
-				return default;
+		public T GetOrDefault<T>() {
+			object result = Get(typeof(T), false);
+			if (result == null) return default(T);
 			return (T)result;
 		}
 
-		private object Get(Type t, bool throwsIfMissing)
-		{
-			if (!_data.TryGetValue(t, out var ret))
-			{
+		private object Get(Type t, bool throwsIfMissing) {
+			if (!_data.TryGetValue(t, out List<object> ret)) {
 				if (throwsIfMissing)
 					throw new InvalidOperationException($"TypeDictionary does not contain instance of type `{t}`");
 				return null;
@@ -74,50 +60,30 @@ namespace Framework.Kits.CollectionsUnmanaged
 			return ret[0];
 		}
 
-		public IEnumerable<T> WithInterface<T>()
-		{
-			return _data.TryGetValue(typeof(T), out var objects) ? objects.Cast<T>() : Array.Empty<T>();
-		}
+		public IEnumerable<T> WithInterface<T>() => _data.TryGetValue(typeof(T), out List<object> objects)
+			? objects.Cast<T>()
+			: Array.Empty<T>();
 
-		public void Remove<T>(T val)
-		{
+		public void Remove<T>(T val) {
 			Type t = val.GetType();
 
-			foreach (Type i in t.GetInterfaces())
+			foreach (Type i in t.GetInterfaces()) {
 				InnerRemove(i, val);
-			foreach (Type tt in t.BaseTypes())
+			}
+			foreach (Type tt in t.BaseTypes()) {
 				InnerRemove(tt, val);
+			}
 		}
 
-		private void InnerRemove(Type t, object val)
-		{
-			if (!_data.TryGetValue(t, out var objects))
-				return;
+		private void InnerRemove(Type t, object val) {
+			if (!_data.TryGetValue(t, out List<object> objects)) return;
 			objects.Remove(val);
-			if (objects.Count == 0)
-				_data.Remove(t);
+			if (objects.Count == 0) _data.Remove(t);
 		}
 
-		public void TrimExcess()
-		{
-			foreach (var objects in _data.Values)
-				objects.TrimExcess();
-		}
-
-		public IEnumerator GetEnumerator()
-		{
-			return WithInterface<object>().GetEnumerator();
-		}
-	}
-
-	public static class TypeExts
-	{
-		public static IEnumerable<Type> BaseTypes(this Type t)
-		{
-			while (t != null)
-			{
-				yield return t;
-				t = t.BaseType;
+		public void TrimExcess() {
+			foreach (List<object> list in _data.Values) {
+				list.TrimExcess();
 			}
 		}
 	}

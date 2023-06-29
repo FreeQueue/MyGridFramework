@@ -1,0 +1,31 @@
+{
+    "name": "DisableKits",
+    "rootNamespace": "Framework.Kits",
+    "references": [
+        "GUID:fb901494b904f5a44bee20b425444dfa",
+        "GUID:029c1c1b674aaae47a6841a0b89ad80e",
+        "GUID:fe360c9693ccbe6418bef6e5ec8a2a7e",
+        "GUID:cfcd2ce455f8d1944942cdd919ecaa60",
+        "GUID:3fcf00d7a3c894e46a955a792eefb4da",
+        "GUID:e16a851ff45a46b42918f227b09bf21e",
+        "GUID:5c01796d064528144a599661eaab93a6",
+        "GUID:dc47925d1a5fa2946bdd37746b2b5d48",
+        "GUID:f51ebe6a0ceec4240a699833d6309b23",
+        "GUID:e34a5702dd353724aa315fb8011f08c3",
+        "GUID:8087d854c1f812e4b9a74437dfc524e0",
+        "GUID:4a1cb1490dc4df8409b2580d6b44e75e",
+        "GUID:41e9b1707d6e5d741880dbf9158c858c",
+        "GUID:ba880a3c55a41254a91d85dd28666dda",
+        "GUID:3e8495bfd2df0ff4ca1f5b0f360e50a7",
+        "GUID:61d25c3ee88d2b747bbabfc2b59ddfb6"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

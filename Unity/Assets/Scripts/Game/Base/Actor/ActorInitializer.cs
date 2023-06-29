@@ -31,18 +31,18 @@ namespace S100
 		}
 
 		public T GetOrDefault<T>(TraitInfo info) where T : ActorInit {
-			IEnumerable<T> inits = Dict.WithInterface<T>();
+			IEnumerable<T> actorInits = Dict.WithInterface<T>();
 
 			// 使用实例名称标记的特征首选具有相同名称的 init。
 			// 如果更具体的 init 不可用，请回退到未命名的 init。
 			// 如果定义了重复的初始化，则采用最后一个以匹配标准 yaml 覆盖预期
 			if (!string.IsNullOrEmpty(info?.InstanceName)) {
-				return inits.LastOrDefault(i => i.InstanceName == info.InstanceName) ??
-						inits.LastOrDefault(i => string.IsNullOrEmpty(i.InstanceName));
+				return actorInits.LastOrDefault(actorInit => actorInit.InstanceName == info.InstanceName) ??
+						actorInits.LastOrDefault(actorInit => string.IsNullOrEmpty(actorInit.InstanceName));
 			}
 
 			// 未标记的特征将仅使用未标记的初始化
-			return inits.LastOrDefault(i => string.IsNullOrEmpty(i.InstanceName));
+			return actorInits.LastOrDefault(i => string.IsNullOrEmpty(i.InstanceName));
 		}
 
 		public T Get<T>(TraitInfo info) where T : ActorInit {
