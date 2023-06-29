@@ -9,25 +9,31 @@
  */
 #endregion
 
-using System.Diagnostics.CodeAnalysis;
+using System;
 
 namespace S100
 {
-	public interface ITraitInfoInterface
+	public interface ITraitInfo
 	{
 	}
 
-	public interface IActivityInterface
+	[AttributeUsage(AttributeTargets.Class, AllowMultiple = true, Inherited = true)]
+	public class RequireTraitAttribute : Attribute
 	{
-	}
+		public RequireTraitAttribute(params Type[] types) {
+			Types = types;
+		}
 
-	[SuppressMessage("Style", "IDE1006:Naming Styles", Justification = "Not a real interface, but more like a tag.")]
-	public interface IRequires<T> where T : class, ITraitInfoInterface
-	{
+		public Type[] Types { get; }
 	}
-
-	[SuppressMessage("Style", "IDE1006:Naming Styles", Justification = "Not a real interface, but more like a tag.")]
-	public interface INotBefore<T> where T : class, ITraitInfoInterface
+	
+	[AttributeUsage(AttributeTargets.Class, AllowMultiple = true, Inherited = true)]
+	public class OptionTraitAttribute : Attribute
 	{
+		public OptionTraitAttribute(params Type[] types) {
+			Types = types;
+		}
+
+		public Type[] Types { get; }
 	}
 }

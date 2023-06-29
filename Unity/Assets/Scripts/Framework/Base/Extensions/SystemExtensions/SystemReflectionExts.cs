@@ -77,5 +77,14 @@ namespace Framework.Extensions
 
 			return @this.Invoke(a);
 		}
+		
+		public static IEnumerable<Type> BaseTypes(this Type @this)
+		{
+			while (@this != null)
+			{
+				yield return @this;
+				@this = @this.BaseType;
+			}
+		}
 	}
 }

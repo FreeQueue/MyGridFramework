@@ -12,8 +12,8 @@ namespace S100
 
 		T GetOrDefault<T>() where T : ActorInit, ISingleInstanceInit;
 		T Get<T>() where T : ActorInit, ISingleInstanceInit;
-		TU GetValue<T, TU>() where T : ValueActorInit<TU>, ISingleInstanceInit;
-		TU GetValue<T, TU>(TU fallback) where T : ValueActorInit<TU>, ISingleInstanceInit;
+		TValue GetValue<T, TValue>() where T : ValueActorInit<TValue>, ISingleInstanceInit;
+		TValue GetValue<T, TValue>(TValue fallback) where T : ValueActorInit<TValue>, ISingleInstanceInit;
 		bool Contains<T>() where T : ActorInit, ISingleInstanceInit;
 	}
 }

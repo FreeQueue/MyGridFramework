@@ -8,7 +8,8 @@
         "FrameworkBase",
         "FrameworkCore",
         "S100.Game",
-        "OpenRA"
+        "OpenRA",
+        "DisableKits"
     ],
     "includePlatforms": [
         "Editor"

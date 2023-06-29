@@ -53,6 +53,7 @@ MonoBehaviour:
     - MoreMountains.Feedbacks.TextMeshPro
     - MoreMountains.Feedbacks.URP
     - MoreMountains.Tools
+    - OpenRA
     - S100.Game
     - UniTask
     - UniTask.Addressables
